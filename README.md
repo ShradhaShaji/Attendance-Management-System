@@ -20,6 +20,6 @@ class then register the number of subjects in that class and can mark the attend
  	<li>Edit Student/Attendance later</li>
  	<li>Simple  designed interface</li>
 </ul>
-<h3 id="requirement" class="notes">Software Requirement</h3>
+
 &nbsp;
 
