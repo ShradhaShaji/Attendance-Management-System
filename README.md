@@ -21,10 +21,5 @@ class then register the number of subjects in that class and can mark the attend
  	<li>Simple  designed interface</li>
 </ul>
 <h3 id="requirement" class="notes">Software Requirement</h3>
-<h3>Admin Login</h3>
-<ul>
- 	<li>Username :-admin</li>
- 	<li>Password :-admin123</li>
-</ul>
 &nbsp;
 
