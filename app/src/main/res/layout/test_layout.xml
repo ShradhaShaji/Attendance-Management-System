@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:weightSum="1" >
+
+        <RadioButton
+            android:id="@+id/PresentradioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+			android:focusableInTouchMode="false"
+            android:text="P"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="#008000"/>
+
+        <RadioButton
+            android:id="@+id/AbsentradioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+			android:focusableInTouchMode="false"
+            android:text="A"
+            android:layout_marginLeft="160dp"
+            android:textColor="#ff0000"/>
+
+   </RadioGroup>
+
+    <Button
+        android:id="@+id/attendanceSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#8dc8d1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        android:text="Submit" />
+</LinearLayout>
